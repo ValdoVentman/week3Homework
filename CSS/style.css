@@ -1,0 +1,48 @@
+
+body {
+    background-color: rgb(221, 165, 221);
+}
+.Title {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: gold;
+    width: 50%;
+    margin: 0% auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.Title2 {
+    color: crimson;
+}
+
+.Ingredient {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: solid black;
+    width: 20%;
+    margin: 2rem auto;
+    color: rgb(8, 94, 19);
+}
+
+.Ingredient td {
+    color: rgb(218, 43, 20);
+}
+
+.instructions {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Croissant One', cursive;
+    color: rgb(39, 51, 218);
+}
+.footer {
+    
+
+    font-family: 'Croissant One', cursive;
+    text-align: center;
+    color: rgb(245, 43, 8);
+    font-size: 1rem;
+}
