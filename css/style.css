@@ -11,11 +11,30 @@ body {
     margin: 0% auto;
     padding-top: 50px;
     padding-bottom: 50px;
-
+    position: relative; 
+    animation: title;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
+
+
+@keyframes title {
+    0% {top: -250px;}
+    85% {top: 50px;}
+    100% {top: 0px;}
+ }
 .Title2 {
     color: crimson;
+    position: relative;
+    animation: title2;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
 }
+@keyframes title2 {
+    0% {left: -1000px;}
+    85% {left: 100px;}
+    100% {left: 0;}
+ }
 
 .Ingredient {
     padding-top: 20px;
@@ -29,14 +48,32 @@ body {
 
 .Ingredient td {
     color: rgb(218, 43, 20);
+    animation: textTdRight;
+    animation-duration: 5s;
+    position: relative;
+}
+@keyframes textTdRight {
+    0% {right: -1000px;}
+    85% {right: 20px;}
+    100% {right: 0;}
 }
 
 .instructions {
-    
+    opacity: 0;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Croissant One', cursive;
     color: rgb(39, 51, 218);
+    animation: instruction;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes instruction {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 .footer {
     
